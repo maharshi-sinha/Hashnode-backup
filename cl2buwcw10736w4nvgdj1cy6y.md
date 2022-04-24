@@ -414,11 +414,11 @@ in same as :
 - 
  ##   JS Projects for Begineer :
 
-#### 💲 Js Stopwatch
-#### 💲 To-do List
-#### 💲 Weather app
-#### 💲 Tic Tac Toe app
-#### 💲 Music Player
+**💲 Js Stopwatch**<br>
+**💲 To-do List**<br>
+**💲 Weather app**<br>
+**💲 Tic Tac Toe app**<br>
+**💲 Music Player**
 
 _____________________________________________________________________________________________________________
 So, That's all about JavaScript.
