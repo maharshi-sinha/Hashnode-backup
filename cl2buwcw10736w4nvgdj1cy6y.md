@@ -1,4 +1,4 @@
-## Javascript Beginner to advance all basic concepts!
+## JavaScript Beginner to advance all basic concepts!
 
 Hey folks ! Welcome again in my new blog & in this blog I'm gonna cover **almost everything** about * **JavaScript** * so, If you're having zero knowledge of Js then also you are most welcome. Here I'll try to cover every point that's necessary to know about JavaScript for fresher.
 _____________________________________________________________________________________________________________
