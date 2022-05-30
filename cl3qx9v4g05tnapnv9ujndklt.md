@@ -46,7 +46,7 @@ but why people loves Linux the most ....? the reason behind this is :
 And much more......
 
 Also, Linux has various flavors of operating systems in which each flavor of Linux distro (distribution) is meant for a particular purpose.
-![linux-distro-stickers.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1653745573577/6FYQqSU62.webp align="left")
+![linux-distro-stickers.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1653745573577/6FYQqSU62.webp align="center")
 
 **Some popular among them are :**
 
@@ -73,7 +73,7 @@ Like this, depending on purpose we can select one particular Linux Distro/ Flavo
 In simple terms, terminal is a program which helps us to interact with the computer without using much of the graphical interface. It is preferred over the Graphical User Interface as it saves a lot of resources from being used. A GUI needs more resources because some elements such as icons, cursor, drivers need to be loaded while working with it. Additionally, it eliminates the need to open file manager for basic work like moving or deleting files while working in IDEs due to the integration of the terminal into the IDEs.
 
 
-![terminal.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1653746061138/m0Wg4Gc7b.gif align="left")
+![terminal.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1653746061138/m0Wg4Gc7b.gif align="center")
 
 
 # The Shell
@@ -88,7 +88,7 @@ It's also like a program that takes your command from keyboard and sends them to
 
 
 
-![shell.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1653747982558/oxZuj5Fb0.png align="left")
+![shell.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1653747982558/oxZuj5Fb0.png align="center")
 
 
  - Most of the Shell by default use `Bash` as their programming language.
@@ -147,7 +147,7 @@ Hello World !
 3. Everything is all about Practice, so keep learning ✌🏼  
 
 
-![linux.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1653760929828/0NjNkYhue.webp align="left")
+![linux.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1653760929828/0NjNkYhue.webp align="center")
 
 # End Note
 So that's all about my first blog in the series of "Linux" so all the basic process is covered in this one and from the next blog I'll going to post all the **Basic Commands of Linux** to you. Till then Thank you & make sure to comment down What should I improve and also what did you like the most about this blog !
