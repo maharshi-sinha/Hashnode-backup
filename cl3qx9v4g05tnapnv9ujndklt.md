@@ -1,4 +1,4 @@
-## Basics Of Linux
+# Basics Of Linux
 
 Hey everyone, Maharshi this side and in this blog we're going to cover about **Linux**. But wait you also think Linux as *tough and difficult* 🤐 don't worry few times ago I feels the same but believe in time and process, you'll too love the Linux much 💯. Ok so Let's deep into this new world from **Scratch**
 
