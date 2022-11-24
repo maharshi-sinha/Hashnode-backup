@@ -1,4 +1,4 @@
-## Cool VS Code Extension to increase your productivity
+# Cool VS Code Extension to increase your productivity
 
 The word **editor** and IDE (integrated development environments) are often mistakenly used interchangeably. However, there are some big differences between the two. The extra functionality you get with an IDE can provide significant time savings, reduce context switching and make coding much easier for you.
 
