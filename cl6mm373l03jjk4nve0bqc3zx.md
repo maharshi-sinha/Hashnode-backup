@@ -1,4 +1,4 @@
-## What is an API for beginners
+# What is an API for beginners
 
 
 ![intro.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1659986633080/zGvMrCJTn.gif align="center")
