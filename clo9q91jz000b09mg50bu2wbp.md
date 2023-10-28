@@ -203,7 +203,7 @@ Flutter 3.13 has recently been out, so if you're looking for the updates and new
 
 So, That's all about ***Flutter***, hope this blog feels helpful to you & I'll cover other topics regarding Flutter in my upcoming blogs.
 
-You can ask your doubts and submit your feedbacks in the comment section below and connect with me on my socials: [LinkedIn](https://www.linkedin.com/in/maharshi-sinha-78b1001b7/) / [Twitter(X)](https://twitter.com/sinha_maharshi) to let me know what you think of it. Stay tuned for some more interesting blogs coming up soon.
+You can ask your doubts and submit your feedback in the comment section below and connect with me on my socials: [LinkedIn](https://www.linkedin.com/in/maharshi-sinha-78b1001b7/) / [Twitter(X)](https://twitter.com/sinha_maharshi) to let me know what you think of it. Stay tuned for some more interesting blogs coming up soon in this series.
 
 Also, If you like my content and want to " [support](https://www.buymeacoffee.com/maharshisinha) " my efforts please like👍🏻, share🔃 & subscribe to the newsletter 📩 to be notified whenever I post a new blog.
 
