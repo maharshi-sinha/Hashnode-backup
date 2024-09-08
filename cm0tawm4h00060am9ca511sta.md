@@ -1,6 +1,6 @@
 ---
 title: "Seamless Flutter-Native Integration: The Power of Method Channels"
-seoTitle: "Seamless Flutter-Native Integration: The Power of Method Channels"
+seoTitle: "how to use method channels in Flutter"
 datePublished: Sun Sep 08 2024 08:17:27 GMT+0000 (Coordinated Universal Time)
 cuid: cm0tawm4h00060am9ca511sta
 slug: seamless-flutter-native-integration-the-power-of-method-channels
