@@ -12,7 +12,7 @@ tags: android-app-development, dart, firebase, ios, flutter, mobile-app-developm
 
 As Flutter developers, we enjoy the ease of building apps for both iOS and Android with a single codebase. But what if you need to tap into some native functionality? Whether it's accessing sensors, using a device-specific API, or integrating native libraries, you might hit a roadblock.
 
-Enter **Method Channels**—Flutter's secret sauce for bridging the gap between Dart and native code. With method channels, you can call native platform APIs from Dart and bring that native power into your Flutter app. In this guide, we’ll explore how method channels work and walk you through a simple implementation step by step.
+Enter **Method Channels**, Flutter's secret sauce for bridging the gap between Dart and native code. With method channels, you can call native platform APIs from Dart and bring that native power into your Flutter app. In this guide, we’ll explore how method channels work and walk you through a simple implementation step by step.
 
 ---
 
