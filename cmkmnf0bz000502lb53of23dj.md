@@ -1,8 +1,8 @@
 ---
-title: "Keploy Assignment 1: Auto-Generating API Tests for a Spring Boot + Postgres App (Docker Compose)"
+title: "Keploy Assignment: Auto-Generating API Tests for a Spring Boot + Postgres App (Docker Compose)"
 datePublished: Tue Jan 20 2026 13:47:24 GMT+0000 (Coordinated Universal Time)
 cuid: cmkmnf0bz000502lb53of23dj
-slug: keploy-assignment-1-auto-generating-api-tests-for-a-spring-boot-postgres-app-docker-compose
+slug: keploy-assignment-auto-generating-api-tests-for-a-spring-boot-postgres-app-docker-compose
 tags: postgresql, docker, apis, springboot, keploy, apitestautomation
 
 ---
