@@ -1,155 +1,418 @@
-# Basics Of Linux
+---
+title: "Linux for Cybersecurity: Essential Commands from Beginner to Pro"
+datePublished: Sun May 29 2022 06:30:01 GMT+0000 (Coordinated Universal Time)
+cuid: cl3qx9v4g05tnapnv9ujndklt
+slug: linux-for-cybersecurity-essential-commands-from-beginner-to-pro
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769718749637/3ab26ea8-cc78-48ae-a6b9-d86e7a71b5aa.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1769718879645/10dd4484-346f-417d-b230-fb7a5d5a14c0.png
+tags: linux, networking, cybersecurity, ethical-hacking, linux-for-beginners, linux-basics, cyber-security-tools
 
-Hey everyone, Maharshi this side and in this blog we're going to cover about **Linux**. But wait you also think Linux as *tough and difficult* 🤐 don't worry few times ago I feels the same but believe in time and process, you'll too love the Linux much 💯. Ok so Let's deep into this new world from **Scratch**
+---
 
-# Starting of System 💻
+Modern cybersecurity work happens largely on Linux systems. From servers and cloud environments to penetration testing labs and security tools, Linux powers much of the infrastructure professionals interact with daily.
 
-Aren't you too think that what happens when we starts our system !? is there any kind of rocket science is behind this ....? Let's understand this first.
+Before analyzing threats or securing systems, one must first be comfortable navigating and controlling Linux environments. This guide walks through the essential Linux commands every cybersecurity learner and professional should know, using practical and relatable examples.
 
-1. BIOS (Basic Input and Output System) is a firmware which is present inside of a small chip and that chip is present inside the mother board.
-2. When the computer is turned on, the software inside the BIOS are executed. These software perform certain checks such as if the memory is loaded, how many drives are present so as to ensure that the system is ready to launch the Operating System (OS).
-3. After the checks are performed, the boot-loader is loaded to the memory, which is what initiates the Operating System.
-4. This is what happens when you start the computer.  
+By the end, you will not only know commands but also understand how they apply in real-world security scenarios.
 
-# What is an Operating System ?
- > It is just a simple *software* that is responsible for managing and operating a computing device.
+---
 
-Now, a question arise that what things are responsible to differentiate a normal software and a OS. `So, let's take a glance into the list of things that every software needs :`
+## Why Linux Matters in Cybersecurity
 
-1. **Kernel**
-> Core of any Operating System & it has complete control over everything in the system. It can control-memory, CPU time of any software. It facilitates the interaction between a software & hardware.
+Linux is preferred in cybersecurity because it offers:
 
-2. **File System**
-> Method or a data structure that the OS uses to store & retrieve data in the memory.
+* Full system control
+    
+* Powerful command-line tools
+    
+* Open-source transparency
+    
+* Wide availability on servers and cloud systems
+    
 
-3. **User Interface**
-> Either CLI (Command Line Interface) or GUI (Graphical User Interface)
+Most professional security tools and lab environments run on Linux, making command-line confidence essential.
 
-4. **Should be able to manipulate data based on commands**
+Think of Linux as the **control room** of cybersecurity operations.
 
-# Why Linux ?
+---
 
-**Linux is like : The more you get to know about it, the more you love it❤.**
-but why people loves Linux the most ....? the reason behind this is :
+## Getting Comfortable with the Terminal
 
-➡ *Linux is Open Source* you're literally able to contribute into it and generally developers are fixes bugs often unlike windows where large number of bugs are dealt at once for commercial purpose.
+The Linux terminal is simply a text-based way to interact with the system. While graphical interfaces exist, professionals rely on the terminal because it is faster, scriptable, and available on almost every system.
 
-➡ Support almost all programming language
+---
 
-➡ Terminal is superior to CMD (windows' command terminal)
+## 1) Navigating the Filesystem
 
-➡ For SSH-ing into the server that you would host locally / remotely 
+### Check your current location
 
-➡ Bash scripting is possible. This is great for scripting, cron jobs, while using docker for containerization and for devops purposes.
+```plaintext
+pwd
+```
 
+Shows your current directory.
 
-And much more......
+---
 
-Also, Linux has various flavors of operating systems in which each flavor of Linux distro (distribution) is meant for a particular purpose.
-![linux-distro-stickers.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1653745573577/6FYQqSU62.webp align="center")
+### List directory contents
 
-**Some popular among them are :**
+```plaintext
+ls -la
+```
 
-- Ubuntu Desktop: General Purpose
+Displays files with permissions, sizes, and hidden files.
 
-- Kali Linux: Hacking Purpose
+---
 
-- Parrot OS: Hacking Purpose
+### Change directory
 
-- Red Hat Enterprise Linux: Enterprise Purpose
+```plaintext
+cd /etc
+```
 
-- Arch Linux: Geeky People and Advance Users
+Moves into another directory.
 
-- BlackArch Linux: Penetration Testing
+Common shortcuts:
 
-Like this, depending on purpose we can select one particular Linux Distro/ Flavor/ Distribution.
+```plaintext
+cd ..
+```
 
-# What is Terminal ?
+Move one directory up.
 
-> Shortcut : `ctrl + alt + t`
+```plaintext
+cd ~
+```
 
-> Shortcut for increasing terminal's size : `ctrl + shift + +`
+Return to home directory.
 
-In simple terms, terminal is a program which helps us to interact with the computer without using much of the graphical interface. It is preferred over the Graphical User Interface as it saves a lot of resources from being used. A GUI needs more resources because some elements such as icons, cursor, drivers need to be loaded while working with it. Additionally, it eliminates the need to open file manager for basic work like moving or deleting files while working in IDEs due to the integration of the terminal into the IDEs.
+---
 
+## 2) File & Directory Management
 
-![terminal.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1653746061138/m0Wg4Gc7b.gif align="center")
+### Create a directory
 
+```plaintext
+mkdir projects
+```
 
-# The Shell
+---
 
+### Create a file
 
-- 
-It is a Command Line interpreter & it executes each and every *command line by line*
+```plaintext
+touch notes.txt
+```
 
+---
 
-- 
-It's also like a program that takes your command from keyboard and sends them to the Operating System to perform.
+### Copy files
 
+```plaintext
+cp file.txt backup/
+```
 
+---
 
-![shell.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1653747982558/oxZuj5Fb0.png align="center")
+### Move or rename files
 
+```plaintext
+mv old.txt new.txt
+```
 
- - Most of the Shell by default use `Bash` as their programming language.
+---
 
-# Shell Format
+### Remove files or folders
 
+```plaintext
+rm file.txt
+rm -rf folder/
+```
 
-```shell
-username@hostname :~$
-``` 
-> here "tilde"(~) means `home directory` or the directory in which you are in.
+⚠️ Use carefully. Deleted data usually cannot be recovered.
 
-> Also, "Doller" ($) means `after this you can start typing`
+---
 
-> Username - name of the logged-in user.
+## 3) File Permissions & Ownership
 
-> Hostname - name of the host, that hosts this Linux server. It is generally the name of your system. 
+Permissions determine who can read, modify, or execute files — critical in system security.
 
+### View permissions
 
+```plaintext
+ls -l
+```
 
-# Tree Hierarchy for Directories !
+Example output:
 
-The hierarchy present in the image is called Tree-hierarchy, which is what is followed in all Linux-distributions ⤵
+```plaintext
+-rwxr-xr--
+```
 
+Represents:
 
-![Blog_tree_-removebg-preview.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1653758006203/2XMa8gfH4.png align="left")
-- Files are present in `Hierarchical` order in a system having any Operating System
-- In Linux folder are termed as **Directory**
-- The first or top directory from where it all starts is known as `root directory`.
-- Root denoted is always represend with **Slash** `/`.
-- Inside the root directory, Home directory is present.
-- **Path** : home/username is represented by '~' . Here the term 'username' represents the different users present inside the home directory.
+```plaintext
+Owner | Group | Others
+```
 
-# Hello to Bash !
+---
 
-Whatever you write after the `"echo"` command, that will gonna print.
+### Change permissions
 
+```plaintext
+chmod 700 script.sh
+```
 
-```bash
-username@hostname:~$ echo Hello World !
-Hello World !
-``` 
-`Example :`
+Owner gets full control; others get none.
 
+---
 
-![Blog Bash.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1653760460094/UrYLZe0JY.png align="left")
+### Change ownership
 
+```plaintext
+sudo chown user:user file.txt
+```
 
-# Points to be Remember
+---
 
-1. Bash is a **case sensitive** so keep your eyes on the Syntax.
+> Note: Incorrect permissions often lead to privilege escalation vulnerabilities.
 
-2. Try To avoid single quotes and double quotes because it has different meanings  
-(' '/ " ").
+---
 
-3. Everything is all about Practice, so keep learning ✌🏼  
+## 4) System Monitoring Commands
 
+Monitoring processes is essential when investigating suspicious activity.
 
-![linux.webp](https://cdn.hashnode.com/res/hashnode/image/upload/v1653760929828/0NjNkYhue.webp align="center")
+### Live process monitoring
 
-# End Note
-So that's all about my first blog in the series of "Linux" so all the basic process is covered in this one and from the next blog I'll going to post all the **Basic Commands of Linux** to you. Till then Thank you & make sure to comment down What should I improve and also what did you like the most about this blog !
-Also you can follow me for update 
-> Have a Nice day :)
+```plaintext
+top
+```
+
+Or improved version:
+
+```plaintext
+htop
+```
+
+---
+
+### Process listing
+
+```plaintext
+ps aux
+```
+
+Filter results:
+
+```plaintext
+ps aux | grep ssh
+```
+
+---
+
+### Memory usage
+
+```plaintext
+free -m
+```
+
+---
+
+### System information
+
+```plaintext
+uname -a
+```
+
+---
+
+## 5) Networking Commands for Security
+
+Security professionals constantly monitor network activity.
+
+### Show IP addresses
+
+```plaintext
+ip a
+```
+
+---
+
+### Test connectivity
+
+```plaintext
+ping google.com
+```
+
+---
+
+### Show open ports and connections
+
+```plaintext
+ss -tuln
+```
+
+Older alternative:
+
+```plaintext
+netstat -tulnp
+```
+
+---
+
+### Trace network route
+
+```plaintext
+traceroute 8.8.8.8
+```
+
+---
+
+### Fetch web data
+
+```plaintext
+curl -I https://example.com
+```
+
+Or download files:
+
+```plaintext
+wget https://example.com/file
+```
+
+---
+
+## 6) Log Analysis & Searching
+
+Log analysis is key during investigations.
+
+### Search inside files
+
+```plaintext
+grep "Failed" /var/log/auth.log
+```
+
+---
+
+### View large files safely
+
+```plaintext
+less logfile.log
+```
+
+---
+
+## 7) Installing Security Tools
+
+On Debian/Ubuntu/Kali systems:
+
+### Update packages
+
+```plaintext
+sudo apt update
+```
+
+---
+
+### Install tools
+
+```plaintext
+sudo apt install nmap
+```
+
+---
+
+## 8) Advanced Security Commands
+
+### Run commands as administrator
+
+```plaintext
+sudo command
+```
+
+---
+
+### Firewall control
+
+```plaintext
+sudo ufw enable
+```
+
+---
+
+### Archive files
+
+```plaintext
+tar -czvf backup.tar.gz folder/
+```
+
+Useful for backups or evidence collection.
+
+---
+
+## Real-World Cybersecurity Usage
+
+### Incident Response Example
+
+During suspicious activity:
+
+1. Check open ports
+    
+
+```plaintext
+ss -tuln
+```
+
+2. Analyze logs
+    
+
+```plaintext
+grep "Failed" /var/log/auth.log
+```
+
+3. Monitor processes
+    
+
+```plaintext
+top
+```
+
+These steps help detect unauthorized activity.
+
+---
+
+### Network Enumeration Example
+
+During lab testing:
+
+```plaintext
+ip a
+ping target
+ss -tuln
+```
+
+Used before deeper scanning.
+
+---
+
+## Practice Safely
+
+Practice using:
+
+* Virtual machines
+    
+* Personal lab systems
+    
+* Authorized environments only
+    
+
+Never test networks without permission.
+
+---
+
+## Final Thoughts
+
+Linux mastery is built through hands-on practice. The more you explore the terminal, the easier it becomes to understand how systems behave and how to secure them.
+
+Start experimenting, explore responsibly, and begin seeing systems the way cybersecurity professionals do.
